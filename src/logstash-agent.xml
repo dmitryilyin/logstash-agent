@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>Logstash Agent Configuration</comment>
+
+    <entry key="collection_interval">60000</entry>
+    <entry key="measurement_prefix">logstash</entry>
+    <entry key="logstash_url">http://127.0.0.1:9600</entry>
+    <entry key="influxdb_url">http://127.0.0.1:8186</entry>
+    <entry key="consistency">one</entry>
+    <entry key="database">metrics</entry>
+    <entry key="username">admin</entry>
+    <entry key="password">admin</entry>
+    <entry key="precision">ns</entry>
+    <entry key="retention">autogen</entry>
+    <entry key="connection_timeout">20000</entry>
+    <entry key="read_timeout">20000</entry>
+    <entry key="input_type">logstash</entry>
+    <entry key="input_name">logstash</entry>
+</properties>
